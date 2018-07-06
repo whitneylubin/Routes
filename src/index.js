@@ -14,12 +14,18 @@ class Home extends Component{
       <Router>
         <div>
         <ul>
-          <li><a href='/index'>Home</a></li>
-          <li><a href='/Happy'>Happy</a></li>
-          <li><a href='/Sleepy'>Sleepy</a></li>
-          <li><a href='/Guilty'>Guilty</a></li>
+          <li>
+          <Link to='/'>Home</Link>
+          </li>
+          <li>
+          <Link to='/happy'>Happy</Link>
+          </li>
+          <li>
+          <Link to='/sleepy'>Sleepy</Link>
+          </li>
+          <li><Link to='/guilty'>Guilty</Link></li>
         </ul>
-        <Route exact path="/" component={Home} />
+        
         <Route path="/Happy" component={Happy} />
         <Route path="/Sleepy" component={Sleepy} />
         <Route path="/Guilty" component={Guilty} />
