@@ -4,7 +4,7 @@ import '../CSS/Guilty.css';
 class Guilty extends Component {
   render() {
     return (
-      <div id="guilty">Guilty</div>
+      <div id="guilty"></div>
     );
   }
 }

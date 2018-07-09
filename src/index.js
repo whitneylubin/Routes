@@ -23,12 +23,14 @@ class Home extends Component{
           <li>
           <Link to='/sleepy'>Sleepy</Link>
           </li>
-          <li><Link to='/guilty'>Guilty</Link></li>
+          <li>
+            <Link to='/guilty'>Guilty</Link>
+          </li>
         </ul>
-        
-        <Route path="/Happy" component={Happy} />
-        <Route path="/Sleepy" component={Sleepy} />
-        <Route path="/Guilty" component={Guilty} />
+
+        <Route path="/happy" component={Happy} />
+        <Route path="/sleepy" component={Sleepy} />
+        <Route path="/guilty" component={Guilty} />
         </div>
       </Router>
       )
